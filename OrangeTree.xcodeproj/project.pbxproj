@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		38D8D93123E0EDF7008023CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8D93023E0EDF6008023CD /* AppDelegate.swift */; };
-		38D8D93323E0EDF7008023CD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93223E0EDF7008023CD /* GameScene.sks */; };
-		38D8D93523E0EDF7008023CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93423E0EDF7008023CD /* Actions.sks */; };
+		38D8D93323E0EDF7008023CD /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93223E0EDF7008023CD /* Level-1.sks */; };
 		38D8D93723E0EDF7008023CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8D93623E0EDF7008023CD /* GameScene.swift */; };
 		38D8D93923E0EDF7008023CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8D93823E0EDF7008023CD /* GameViewController.swift */; };
 		38D8D93C23E0EDF7008023CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93A23E0EDF7008023CD /* Main.storyboard */; };
 		38D8D93E23E0EDF9008023CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93D23E0EDF9008023CD /* Assets.xcassets */; };
 		38D8D94123E0EDF9008023CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D93F23E0EDF9008023CD /* LaunchScreen.storyboard */; };
+		38D8D94B23E0EEEA008023CD /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 38D8D94A23E0EEEA008023CD /* Smashing-Things.atlas */; };
+		38D8D94D23E0F2A8008023CD /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8D94C23E0F2A8008023CD /* Orange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38D8D92D23E0EDF6008023CD /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D8D93023E0EDF6008023CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38D8D93223E0EDF7008023CD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		38D8D93423E0EDF7008023CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		38D8D93223E0EDF7008023CD /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
 		38D8D93623E0EDF7008023CD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		38D8D93823E0EDF7008023CD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		38D8D93B23E0EDF7008023CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38D8D93D23E0EDF9008023CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38D8D94023E0EDF9008023CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D8D94223E0EDF9008023CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D8D94A23E0EEEA008023CD /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		38D8D94C23E0F2A8008023CD /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		38D8D94F23E90902008023CD /* Level-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-3.sks"; sourceTree = "<group>"; };
+		38D8D95023EA20E7008023CD /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			children = (
 				38D8D92F23E0EDF6008023CD /* OrangeTree */,
 				38D8D92E23E0EDF6008023CD /* Products */,
+				38D8D94A23E0EEEA008023CD /* Smashing-Things.atlas */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				38D8D93023E0EDF6008023CD /* AppDelegate.swift */,
-				38D8D93223E0EDF7008023CD /* GameScene.sks */,
-				38D8D93423E0EDF7008023CD /* Actions.sks */,
+				38D8D93223E0EDF7008023CD /* Level-1.sks */,
+				38D8D95023EA20E7008023CD /* Level-2.sks */,
+				38D8D94F23E90902008023CD /* Level-3.sks */,
 				38D8D93623E0EDF7008023CD /* GameScene.swift */,
 				38D8D93823E0EDF7008023CD /* GameViewController.swift */,
+				38D8D94C23E0F2A8008023CD /* Orange.swift */,
 				38D8D93A23E0EDF7008023CD /* Main.storyboard */,
 				38D8D93D23E0EDF9008023CD /* Assets.xcassets */,
 				38D8D93F23E0EDF9008023CD /* LaunchScreen.storyboard */,
@@ -131,11 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D8D94B23E0EEEA008023CD /* Smashing-Things.atlas in Resources */,
 				38D8D93C23E0EDF7008023CD /* Main.storyboard in Resources */,
-				38D8D93323E0EDF7008023CD /* GameScene.sks in Resources */,
+				38D8D93323E0EDF7008023CD /* Level-1.sks in Resources */,
 				38D8D93E23E0EDF9008023CD /* Assets.xcassets in Resources */,
 				38D8D94123E0EDF9008023CD /* LaunchScreen.storyboard in Resources */,
-				38D8D93523E0EDF7008023CD /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 				38D8D93723E0EDF7008023CD /* GameScene.swift in Sources */,
 				38D8D93923E0EDF7008023CD /* GameViewController.swift in Sources */,
 				38D8D93123E0EDF7008023CD /* AppDelegate.swift in Sources */,
+				38D8D94D23E0F2A8008023CD /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
